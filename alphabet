@@ -4,9 +4,13 @@ int main()
 char ch;
 printf("enter the character");
 scanf("%c",&ch);
-for(ch='a';ch<='z';ch++)
+if(ch=='a'&&ch<='z')
 {
 printf("given character is an alphabet");
+}
+else
+{
+printf("given character is not an alaphabet");
 }
 return 0;
 }
