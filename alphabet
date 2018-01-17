@@ -8,9 +8,5 @@ for(ch='a';ch<='z';ch++)
 {
 printf("given character is an alphabet");
 }
-else
-{
-printf("given character is not an alphabet);
-}
 return 0;
 }
